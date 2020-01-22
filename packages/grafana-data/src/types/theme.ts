@@ -243,6 +243,9 @@ export interface GrafanaTheme extends GrafanaThemeCommons {
     formCheckboxBgChecked: string;
     formCheckboxBgCheckedHover: string;
     formCheckboxCheckmark: string;
+
+    //sensetime color
+    senseRedT: string;
   };
   shadow: {
     pageHeader: string;

@@ -109,6 +109,10 @@ $text-muted: $text-color-weak;
 
 $hr-border-color: $dark-9;
 
+// Sensetime
+// ------------------------
+$sense-red-transparent: ${theme.colors.senseRedT};
+
 // Panel
 // -------------------------
 $panel-bg: ${theme.colors.panelBg};
@@ -247,7 +251,7 @@ $navbar-button-border: #2f2f32;
 
 // Sidemenu
 // -------------------------
-$side-menu-bg: $black;
+$side-menu-bg: $sense-red-transparent;
 $side-menu-bg-mobile: $side-menu-bg;
 $side-menu-item-hover-bg: $dark-3;
 $side-menu-shadow: 0 0 20px black;

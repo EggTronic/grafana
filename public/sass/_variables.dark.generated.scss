@@ -31,7 +31,7 @@ $black: #000000;
 $dark-1: #141414;
 $dark-2: #161719;
 $dark-3: #1f1f20;
-$dark-4: #212124;
+$dark-4: rgba(0, 0, 0, 0.5);
 $dark-5: #222426;
 $dark-6: #262628;
 $dark-7: #292a2d;
@@ -112,9 +112,13 @@ $text-muted: $text-color-weak;
 
 $hr-border-color: $dark-9;
 
+// Sensetime
+// ------------------------
+$sense-red-transparent: rgba(140, 0, 0, 0.5);
+
 // Panel
 // -------------------------
-$panel-bg: rgba(0, 0, 0, 0.4);
+$panel-bg: rgba(0, 0, 0, 0.5);
 $panel-border: solid 1px $dark-1;
 $panel-header-hover-bg: $dark-9;
 $panel-corner: $panel-bg;
@@ -250,7 +254,7 @@ $navbar-button-border: #2f2f32;
 
 // Sidemenu
 // -------------------------
-$side-menu-bg: $black;
+$side-menu-bg: $sense-red-transparent;
 $side-menu-bg-mobile: $side-menu-bg;
 $side-menu-item-hover-bg: $dark-3;
 $side-menu-shadow: 0 0 20px black;

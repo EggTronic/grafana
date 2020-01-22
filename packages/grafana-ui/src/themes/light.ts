@@ -1,6 +1,10 @@
 import defaultTheme, { commonColorsPalette } from './default';
 import { GrafanaThemeType, GrafanaTheme } from '@grafana/data';
 
+const sensetime = {
+  senseRedTransparent: 'rgba(140,1,1,.5)',
+};
+
 const basicColors = {
   ...commonColorsPalette,
   black: '#000000',
@@ -111,6 +115,9 @@ const lightTheme: GrafanaTheme = {
     formCheckboxBgChecked: basicColors.blueShade,
     formCheckboxBgCheckedHover: basicColors.blueBase,
     formCheckboxCheckmark: basicColors.white,
+
+    // sensetime theme
+    senseRedT: sensetime.senseRedTransparent,
   },
   background: {
     dropdown: basicColors.white,
