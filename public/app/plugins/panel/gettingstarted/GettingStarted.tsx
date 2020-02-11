@@ -35,9 +35,9 @@ export class GettingStarted extends PureComponent<PanelProps, State> {
 
     this.steps = [
       {
-        title: 'Install Grafana',
+        title: 'Install Petrel',
         icon: 'icon-gf icon-gf-check',
-        href: 'http://docs.grafana.org/',
+        href: 'http://doc.petrel.gux.space/',
         target: '_blank',
         note: 'Review the installation docs',
         check: () => Promise.resolve(true),

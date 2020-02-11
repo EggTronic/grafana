@@ -6,11 +6,11 @@ $login-border: #8daac5;
   background-repeat: no-repeat;
   min-width: 100%;
   margin-left: 0;
-  background-color: $black;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../img/heatmap_bg_test.svg);
+
   background-size: cover;
   color: #d8d9da;
 
@@ -128,8 +128,8 @@ select:-webkit-autofill:focus {
 .app-grafana {
   .logo-wordmark {
     background: url('../img/grafana_typelogo.svg') top center no-repeat;
-    width: 100%;
-    height: 70px;
+    width: 200%;
+    height: 100px;
   }
 }
 

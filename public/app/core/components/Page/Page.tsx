@@ -32,7 +32,7 @@ class Page extends Component<Props> {
 
   updateTitle = () => {
     const title = this.getPageTitle;
-    document.title = title ? title + ' - Grafana' : 'Grafana';
+    document.title = title ? title + ' - Petrel' : 'Petrel';
   };
 
   get getPageTitle() {
@@ -53,7 +53,7 @@ class Page extends Component<Props> {
             <PageHeader model={navModel} />
             {this.props.children}
             <Footer
-              appName="Grafana"
+              appName="Petrel"
               buildCommit={buildInfo.commit}
               buildVersion={buildInfo.version}
               newGrafanaVersion={buildInfo.latestVersion}
